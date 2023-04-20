@@ -1,0 +1,21 @@
+"lease_id";"client_number";"full_name";"property_number";"property_address";"monthly_rent";"payment_method";"deposit_paid";"rent_start";"rent_finish";"duration"
+1;17;"Gregory House";57;"10 St. James's Square, London SW1Y 4LE";1400.0;"Credit Card";"Y";"2022-05-15";"2023-05-23";12
+2;20;"Caroline Forbs";5;"47 Smithfield Road, Manchester, M4 1FY";350.0;"Debit Card";"Y";"2022-08-01";"2023-07-01";11
+3;8;"Penelope Cook";7;"9 Queen's Road, Bristol, BS8 1QE";800.0;"Net Banking";"Y";"2022-11-05";"2023-05-05";6
+4;5;"Benjamin Taylor";51;"3-5 Bold Street, Liverpool, L1 4DJ";400.0;"UPI";"Y";"2022-09-15";"2023-10-15";13
+5;14;"Adrian Monk";25;"14 Temple Street, Birmingham, B2 5BN";1000.0;"Credit Card";"Y";"2023-05-05";"2024-05-05";12
+6;4;"Eleanor King";37;"32 Sauchiehall Street, Glasgow, G2 3AT";1250.0;"Debit Card";"Y";"2023-04-15";"2024-04-15";12
+7;16;"Andy Samberg";3;"3 Market Street, Newcastle upon Tyne, NE1 6JE";450.0;"Credit Card";"Y";"2022-09-10";"2024-09-10";12
+8;32;"Luke Castellen";68;"32 Great Castle St, Marylebone, London W1G 0ER";350.0;"Credit Card";"Y";"2022-04-11";"2023-05-11";13
+9;24;"Luna Lovegood";22;"19 Long Row, Nottingham, NG1 2DH";800.0;"UPI";"Y";"2022-06-20";"2023-06-20";12
+10;25;"Fleur Delacour";26;"7 Castle Street, Liverpool, L2 4SW";1100.0;"Credit Card";"Y";"2022-12-21";"2023-06-21";6
+11;31;"Remus Lupin";102;"22 Park Street, Bristol BS1 5JN";1000.0;"Net Banking";"Y";"2022-12-20";"2023-05-20";11
+12;36;"Mike Hannigan";10;"20 Royal Exchange Square, Glasgow, G1 3AB";525.0;"Debit Card";"Y";"2023-04-12";"2023-10-12";6
+13;28;"Dudley Dursley";81;"23 High Street, Bristol BS1 1TP";400.0;"Credit Card";"Y";"2022-07-25";"2023-01-25";6
+14;1;"Max Morgan";43;"20-22 Rose Street, Aberdeen, EH2 2PR";325.0;"Credit Card";"Y";"2022-10-25";"2023-10-25";12
+15;10;"Jerry Seinfeld";35;"36 Stoney Street, Nottingham, NG1 1NB";1200.0;"Net Banking";"Y";"2022-04-15";"2022-10-15";6
+16;29;"Dean Thomas";99;"89 Victoria Road, Liverpool L36 6AE";575.0;"Credit Card";"Y";"2022-06-14";"2023-07-14";13
+17;23;"Rubeus Hagrid";74;"2 Sawley Rd, Manchester M40 8BB";325.0;"Debit Card";"Y";"2023-04-02";"2023-10-02";6
+18;12;"Rebekah Mikaelson";12;"12 Albion Street, Leeds, LS1 6JL";360.0;"Credit Card";"Y";"2023-04-01";"2024-04-01";12
+19;40;"Emily Waltman";93;"40 South Molton Street, Mayfair, London";350.0;"Net Banking";"Y";"2022-11-12";"2023-05-12";6
+20;37;"Charlie Sheen";88;"23 Main Street, Liverpool L1 AA";450.0;"Credit Card";"Y";"2022-04-05";"2023-04-05";12
