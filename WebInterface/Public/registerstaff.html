@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Staff Registration Form</title>
+  <link rel="stylesheet" href="/reg.css">
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+  </script>
+</head>
+<body>
+  <h1>Staff Registration Form</h1>
+  <form action="/register-staff" method="POST">
+
+    <div>
+      <label for="full_name">Full Name:</label>
+      <input type="text" id="full_name" name="full_name" required>
+    </div>
+    <div>
+      <label for="date_of_birth">Date of Birth:</label>
+      <input type="date" id="date_of_birth" name="date_of_birth" min="1900-01-01" max="2003-12-31" required>
+    </div>
+    <div>
+      <label for="sex">Sex:</label>
+      <input type="radio" id="male" name="sex" value="M" required>
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="sex" value="F" required>
+      <label for="female">Female</label>
+      <input type="radio" id="other" name="sex" value="O" required>
+      <label for="other">Other</label>
+    </div>
+
+    <div>
+      <label for="branch_number">Branch Number:</label>
+      <input type="text" id="branch_number" name="branch_number" required>
+    </div>
+
+    <div>
+      <label for="position">Position:</label>
+      <input type="text" id="position" name="position" required>
+    </div>
+    <div>
+      <label for="salary">Salary:</label>
+      <input type="text" id="salary" name="salary" required>
+    </div>
+
+    <div>
+      <label for="manager_start_date">Manager Start Date:</label>
+      <input type="date" id="manager_start_date" name="manager_start_date" min="1900-01-01" max="2003-12-31">
+    </div>
+    <div>
+      <label for="manager_bonus">Manager Bonus:</label>
+      <input type="text" id="manager_bonus" name="manager_bonus">
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>

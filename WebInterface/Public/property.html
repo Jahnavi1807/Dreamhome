@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Property Registration</title>
+    <link rel="stylesheet" href="/pstyles.css">
+    <script src='/propertyscript.js'></script>
+  </head>
+  <body>
+    <div class="Container">
+      <form class="" action="/insert" method="POST" onsubmit="return validateForm()">
+        <h2>Property Registration Form</h2>
+        <div class="content">
+          <div class="input-box">
+            <label for="pnum">Property Number</label>
+            <input type="text" placeholder="" name="pnum" id="pnum" required>
+          </div>
+
+
+          <div class="input-box">
+            <label for="pname">Person/Business Name</label>
+            <input type="text" placeholder="" name="pname" id="pname" required>
+          </div>
+
+          <div class="input-box">
+            <label for="telno">Telephone number</label>
+            <input type="text" placeholder="Enter your Telephone Number" name="telno" id="telno" required>
+          </div>
+
+          <div class="input-box">
+            <label for="oaddress"> Address</label>
+            <input type="text" placeholder="Enter your current address" name="oaddress" id="oaddress" required>
+          </div>
+          <div class="input-box">
+            <label for="btype">Type of Business</label>
+            <input type="text" placeholder="Enter if applicable" name="btype" id="btype">
+          </div>
+
+          <div class="input-box">
+            <label for="bname">Contact Name</label>
+            <input type="text" placeholder="Enter if applicable" name="bname" id="bname">
+          </div>
+
+
+          <div class="input-box">
+            <label for="ptype">Type</label>
+            <select name="ptype" id="ptype" required>
+              <option value="" >Select Property Type</option>
+              <option value="Flat">Flat</option>
+              <option value="House">Bungalow</option>
+              <option value="Apartment">Penthouse</option>
+            </select>
+          </div>
+
+          <div class="input-box">
+            <label for="room">Rooms</label>
+            <input type="text" placeholder="" name="room" id="room" required>
+          </div>
+
+          <div class="input-box">
+            <label for="room">Rent</label>
+            <input type="text" placeholder="" name="rent" id="rent" required>
+          </div>
+
+          <div class="input-box">
+            <label for="paddress">Property address</label>
+            <input type="text" placeholder="" name="paddress" id="paddress" required>
+          </div>
+
+          <div class="input-box">
+            <label for="city">City</label>
+            <select name="city" id="city" onchange="updateBranches()" required>
+              <option value="" >Select city</option>
+              <option value="London">London</option>
+              <option value="Manchester">Manchester</option>
+              <option value="Birmingham">Birmingham</option>
+              <option value="Bristol">Bristol</option>
+              <option value="Glasgow">Glasgow</option>
+              <option value="Liverpool">Liverpool</option>
+              <option value="Aberdeen">Aberdeen</option>
+              <option value="Leeds">Leeds</option>
+              <option value="Newcastle">Newcastle</option>
+              <option value="Nottingham">Nottingham</option>
+            </select>
+          </div>
+
+          <div class="input-box">
+            <label for="branch">Branch</label>
+            <select name="branch" id="branch" required>
+              <option value="">Select branch</option>
+            </select>
+          </div>
+
+
+          <div class="input-box">
+            <label for="ad_count"> Advertisements</label>
+            <input type="text" placeholder="Enter the no of ads that has been done for this property" name="ad_count" id="ad_count" required>
+          </div>
+
+
+        </div>
+
+
+      </div>
+
+        <div class="button-container">
+          <button type="submit" name="submit" onclick="return validateForm()">Register</button>
+
+        </div>
+      </form>
+
+    </div>
+  </body>
+
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Staff Listing</title>
+  <link rel="stylesheet" href="/staff-listing.css">
+  <script src='/propertyscript.js'></script>
+
+
+</head>
+<body>
+  <h1>Staff Listing</h1>
+  <div class="Container">
+  <form action="/staff-listing" method="GET">
+    <div class="input-box">
+      <label for="city">City</label>
+      <select name="city" id="city" onchange="updateBranches()" required>
+        <option value="" >Select city</option>
+        <option value="London">London</option>
+        <option value="Manchester">Manchester</option>
+        <option value="Birmingham">Birmingham</option>
+        <option value="Bristol">Bristol</option>
+        <option value="Glasgow">Glasgow</option>
+        <option value="Liverpool">Liverpool</option>
+        <option value="Aberdeen">Aberdeen</option>
+        <option value="Leeds">Leeds</option>
+        <option value="Newcastle">Newcastle</option>
+        <option value="Nottingham">Nottingham</option>
+      </select>
+    </div>
+
+    <div class="input-box">
+      <label for="branch">Branch</label>
+      <select name="branch" id="branch" required>
+        <option value="">Select branch</option>
+      </select>
+    </div>
+    <div class="button-container">
+      <button type="submit" name="submit" onclick="return validateForm()">Submit</button>
+    </div>
+  </form>
+    </div>
+
+
+
+</body>
+</html>
